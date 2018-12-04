@@ -11,6 +11,7 @@ namespace SnakeConsoleUI
         void Instruction(Direction direction);
         Action<Point, Item> Draw { get; set; }
 
+
         GameState State { get; }
 
     }
